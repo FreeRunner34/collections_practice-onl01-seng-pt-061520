@@ -15,3 +15,7 @@ end
 
 def sort_array_char_count (array)
   array ["this ","is ","a test"]
+  array.sort do |a, b|
+    a<=>b 
+  end 
+end 
